@@ -13,4 +13,4 @@ En el taller se ven los siguientes temas:
 - Figma para diseño de User Interfaces
 - Elaboración de portfolio personal
 
-Como proyecto final la idea es que logres diseñar tu propio portfolio como el de [jorgesarricolea.com](https://jorgesarricolea.com) y puedas defender tus conocimientos como desarrollador web en el mundo profesional. Recuerda que si tienes más dudas o quieres compartir más de tu conocimiento puedes contactar con cualquiera de los EN-CODERS actuales o veteranos.
+Siéntete con libertad de hacer un git clone de este repositorio en tu ordenador local para que puedas ir trabajando al respecto. Como proyecto final la idea es que logres diseñar tu propio portfolio como el de [jorgesarricolea.com](https://jorgesarricolea.com) y puedas defender tus conocimientos como desarrollador web en el mundo profesional. Recuerda que si tienes más dudas o quieres compartir más de tu conocimiento puedes contactar con cualquiera de los EN-CODERS actuales o veteranos.
