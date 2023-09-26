@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root {
+    --black-color: #000;
+}
+
+body {
+    background-image: url("perrito.jpg");
+    background-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.main-container {
+    border: 2px solid var(--black-color);
+    padding: 10px 5px 8px 20px;
+    margin: 10px 5px 8px 20px;
+    width: 300px;
+}
+
+.main-container {
+    cursor: pointer;
+}
+
+figure {
+    transition: .3s;
+    display: flex;
+    background-color: aqua;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 10px;
+    width: 50%;
+}
+
+figure:hover {
+    background-color: tomato;
+    width: 70%;
+    opacity: 30%;
+}
+
+img {
+    border-radius: 40px;
+    width: 250px;
+}
+
+.boton-primario {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 32px;
+}
+
+.boton-primario:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+    color: aliceblue;
+}
