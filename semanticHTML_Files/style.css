@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+.container{
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 700px;
+  margin: 100px auto 0 auto;
+  padding: 20px;
+}
+
+.container * {
+  border-radius: 10px;
+  transition: box-shadow 0.5s;
+}
+
+.container *:hover{
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.479);
+}
+
+
+.container header {
+  background-color: hsl(195.45deg 100% 87.06%);
+  height: 130px;
+  margin: 20px;
+}
+
+.container nav {
+  background-color: hsl(351.6deg 100% 90.2%);
+  height: 50px;
+  margin: 20px;
+}
+
+.container-aside-main {
+  display: flex;
+}
+
+.container-aside-main aside {
+  background-color: hsl(48.65deg 100% 85.49%);
+  flex: 1;
+  margin: 0 0 20px 20px;
+}
+
+.container-aside-main main {
+  background-color: hsl(48.65deg 100% 85.49%);
+  flex: 2;
+  margin: 0 20px 20px 20px;
+}
+
+.container-aside-main main article {
+  background-color: white;
+  margin: 60px 30px 20px 30px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.container-aside-main main article header {
+  background-color: hsl(75.71deg 100% 83.53%);
+  height: 60px;
+  margin: 0 20px 10px 20px;
+}
+
+.container-aside-main main article figure {
+  background-color: hsl(48.65deg 100% 85.49%);
+  height: 120px;
+  margin: 0 20px 10px 20px;
+}
+
+.container-aside-main main article p {
+  background-color: hsl(28.36deg 100% 89.22%);
+  height: 120px;
+  margin: 0 20px 10px 20px;
+}
+
+.container-aside-main main article footer {
+  background-color: hsl(312.41deg 44.62% 87.25%);
+  height: 30px;
+  margin: 0 20px 10px 20px;
+}
+
+.container-aside-main main section {
+  background-color: white;
+  margin: 10px 30px 20px 30px;
+  height: 100px;
+}
+
+.container footer {
+  background-color: hsl(155.74deg 100% 81.57%);
+  height: 130px;
+  margin: 0 20px 20px 20px;
+}
